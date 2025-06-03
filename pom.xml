@@ -1,0 +1,11 @@
+<!-- pom.xml dependencies -->
+<dependency>
+  <groupId>com.github.haifengl</groupId>
+  <artifactId>smile-core</artifactId>
+  <version>2.6.0</version>
+</dependency>
+<dependency>
+  <groupId>com.google.code.gson</groupId>
+  <artifactId>gson</artifactId>
+  <version>2.10</version>
+</dependency>

@@ -1,0 +1,31 @@
+/*
+Implement an intelligent chatbot using natural
+language processing and machine learning for
+interactive and automated communication.
+*/
+
+
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning"],
+      "responses": ["Hi!", "Hello!", "Hey there!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye"],
+      "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["When are you open?", "Opening hours?", "Office hours?"],
+      "responses": ["We are open 9am to 5pm, Monday to Friday."]
+    }
+  ]
+}
+
+
+//javac -cp ".;gson-2.10.jar" Chatbot.java Intent.java IntentsData.java
+//java -cp ".;gson-2.10.jar" Chatbot
